@@ -9,9 +9,6 @@
 // If a value is present in b, all of its occurrences must be removed from the other:
 // arrayDiff([1,2,2,2,3],[2]) == [1,3]
 
-
-// let arr = [1,2,2,2,3];
-// let b = 2;
 function arrayDiff(a, b) {
   const result = [];
   for ( let elem of a) {
